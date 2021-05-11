@@ -1,0 +1,524 @@
+  <router-outlet></router-outlet>
+
+  <!-- Header Navigation -->
+  <header class="navbar-dark bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <nav class="navbar navbar-expand-xl">
+            <a class="navbar-brand fs-3 logo" href="#" container="body" tooltip="Evolent Health">Evolent Health</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Overview" container="body" tooltip="Overview">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Features" container="body" tooltip="Features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#ProblemStatement" container="body" tooltip="Problem Statement">Problem Statement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#UserDirectory" container="body" tooltip="User Directory">User Directory</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" container="body" tooltip="User Actions">
+                      User Actions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#AddNewUser" container="body" tooltip="Add New User">Add New User</a></li>
+                      <li><a class="dropdown-item" href="#UpdateUser" container="body" tooltip="Update User">Update User</a></li>
+                      <li><a class="dropdown-item" href="#ActivateUser" container="body" tooltip="Activate User">Activate User</a></li>
+                      <li><a class="dropdown-item" href="#DeactivateUser" container="body" tooltip="Deactivate User">Deactivate User</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Functionalities">Functionalities (User Directory Grid)</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form disabled class="d-flex mb-4 mb-lg-0" container="body" tooltip="Search is not functional yet">
+                  <input class="form-control me-2" type="search" placeholder="Search">
+                  <button class="btn btn-light" type="submit">Search</button>
+                </form>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container moduleContent p-4">
+
+    <!-- Overview -->
+    <div class="mb-4" id="Overview">
+      <div class="row row-cols-1 row-cols-md-12 g-4">
+        <div class="col">
+          <div class="card border-grey h-100">
+            <div class="card-header bg-dark text-light">
+              <span >Project Description</span>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <div class="alert alert-primary mb-0" role="alert">
+                  <P class="projectTitle">User Directory</P>
+                  <hr class="border border-primary">
+                  <div class="projectDescription">
+                    <ul>
+                      <li>Built to be consumed for mainitaining and updating user's records within organization.</li>
+                      <li>Enables user to onboard new users to the system with asking for minimal primary information.</li>
+                      <li>Feasibility to update existing user's record, including activating and deactivating them.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Features provided -->
+    <div id="Features" class="mb-4">
+      <div class="row row-cols-1 row-cols-md-12 g-4">
+        <div class="col">
+          <div class="card border-grey h-100">
+            <div class="card-header bg-dark text-light">
+              <span >Features</span>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card h-100 text-white bg-secondary">
+                      <div class="card-header">
+                        <h5 class="card-title">Display exiting users</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">Want to have a look at the user's records as of today?
+                          <br>
+                          <br>
+                          Just visit the module to see them all in one go under <b class="text-warning">User Directory</b> grid.
+                          <br>
+                          <br>
+                          You can filter the records based on your choice too.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card h-100 text-white bg-success">
+                      <div class="card-header">
+                        <h5 class="card-title">Add New User</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">Existing users can add new users to the system using <b class="text-warning">Add New User</b> feature.
+                          <br>
+                          <br>
+                          Just complete the form with minimal primary information and you are good to go. You can add them even keeping deactivated until you make them active. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card h-100 text-dark bg-info">
+                      <div class="card-header">
+                        <h5 class="card-title">Update Existing User</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">
+                          Willing to change a record of an existing user?
+                          <br>
+                          <br>
+                          No Worries! Just click <b class="text-danger">Update</b> and do it in seconds.
+                          <br>
+                          <br>
+                          <b>Even if the user is active or deactivated, No matter!</b>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card h-100 text-dark bg-warning">
+                      <div class="card-header">
+                        <h5 class="card-title">Activate/Deactivate User</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">
+                          Want to Activate or deactivate an existing user?
+                          <br>
+                          <br>
+                          Sure! You can do it using <b class="text-success">Activate</b>/<b class="text-danger">Deactivate</b> buttons.
+                          <br>
+                          <br>
+                          Even if you deactivate users, it will still be in the system and you can anytime activate them back.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- User Directory -->
+    <div class="row">
+      <div class="userDirectory">
+        <div class="card border-grey">
+          <div class="card-header bg-dark text-light d-flex justify-content-between" id="UserDirectory">
+            <div class="col-8" container="body" tooltip="User Directory">User Directory</div>
+            <button id="ProblemStatement" class="btn btn-xs bg-sticky-1 text-dark" (click)="openDialog(showQuestionPaper, undefined, undefined, undefined)" container="body" tooltip="Problem Statement">Problem Statement</button>
+            <ng-template #showQuestionPaper>
+              <div class="modal-header">
+                <h4 class="modal-title pull-left">Problem Statement</h4>
+                <button type="button" class="btn" (click)="modalRef.hide()">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="../assets/attachments/EhiProject.pdf" frameBorder="0" width="100%" height="2200px" />
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" container="body" tooltip="Close" (click)="modalRef.hide()">Close</button>
+              </div>
+            </ng-template>
+          </div>
+            <div class="p-4 pb-0">
+              <div class="alert" [ngClass]="alertClass" *ngIf="alertMessage">
+                {{alertMessage}}
+              </div>
+            </div>
+            <div class="card-body pt-0" *ngIf="isUserListAvailable">
+              <div class="accordion" id="Functionalities">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed accordionColor fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeature" aria-expanded="true" aria-controls="collapseFeature" tooltip="Functionalities (User Directory Grid)">
+                      Functionalities (User Directory Grid)
+                    </button>
+                  </h2>
+                  <div id="collapseFeature" class="accordion-collapse collapse">
+                    <div class="accordion-body feature">
+                      <p><b>Note:</b> Dialog vanishing option has been kept disabled for outside click to prevent unwanted losing of form's data.</p>
+                      <p>Please note that the below features have been introduced for this table:</p>
+                        <div class="">
+                          <ul class="list-group">
+                            <li class="list-group-item list-group-item-info">
+                              Filtering
+                              <fa-icon [icon]="faFilter"></fa-icon>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                              Sorting on value based columns
+                              <fa-icon [icon]="faSort"></fa-icon>
+                            </li>
+                            <li class="list-group-item list-group-item-success">
+                              Pagination
+                              <fa-icon [icon]="faPager"></fa-icon>
+                            </li>
+                            <li class="list-group-item list-group-item-warning">
+                              Sticky (pinned) column for <b>Is User Active</b>
+                              <fa-icon [icon]="faFile"></fa-icon>
+                              <div class="col-lg-10">
+                                <sub>
+                                  <u><b>Note:</b></u> Since there are less number of columns in the grid currently, this feature can be experienced on handheld devices or by resizing the browser window to lower screen size.
+                                </sub>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3 row">
+                <label for="searchUser" class="col-md-3 col-sm-3 col-form-label mt-2 fw-bold text-center">Search User:</label>
+                <div class="matSearchField col-md-5 col-sm-3">
+                  <mat-form-field>
+                    <mat-label>Filter by any value across the grid...</mat-label>
+                    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. 'Smith'" #input id="searchUser">
+                  </mat-form-field>
+                </div>
+                <div class="col-md-4 col-sm-6 text-center mb-3 d-grid">
+                  <button id="AddNewUser" type="button" class="btn btn-success addUserBtn fs-5" (click)="openDialog(addNewUser, undefined, undefined, undefined)" container="body" tooltip="Add New User">
+                    <span>Add New User</span>
+                    <fa-icon [icon]="faPlus"></fa-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="userGridData">
+                <table mat-table [dataSource]="userGridData" matSort>
+
+                  <ng-container sticky matColumnDef="IsActive">
+                    <th mat-header-cell *matHeaderCellDef> Is User Active </th>
+                    <td mat-cell class="isActive text-center" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.IsActive ? 'Yes' : 'No'}}">
+                      <mat-checkbox [checked]="element.IsActive" disabled></mat-checkbox>
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="FirstName">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>
+                    <td mat-cell class="firstName text-truncate" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.FirstName}}">
+                      <input [readonly]="!isEditMode || currentRecordIndex !== i" type="text" class="form-control" [(ngModel)]="element.FirstName" value="{{element.FirstName}}">
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="LastName">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Last Name </th>
+                    <td mat-cell class="lastName text-truncate" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.LastName}}">
+                      <input [readonly]="!isEditMode || currentRecordIndex !== i" type="text" class="form-control" [(ngModel)]="element.LastName" value="{{element.LastName}}">
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Gender">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Gender </th>
+                    <td mat-cell class="gender text-center" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.Gender}}"> {{element.Gender}} </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Email">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+                    <td mat-cell class="email text-truncate" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.Email}}">
+                      <input [readonly]="!isEditMode || currentRecordIndex !== i" type="email" class="form-control" [(ngModel)]="element.Email" value="{{element.Email}}">
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Phone">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+                    <td mat-cell class="phone text-truncate" *matCellDef="let element; let i = index;" container="body" tooltip="{{element.Phone}}">
+                      <input [readonly]="!isEditMode || currentRecordIndex !== i" type="text" class="form-control" [(ngModel)]="element.Phone" value="{{element.Phone}}">
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Actions">
+                    <th mat-header-cell *matHeaderCellDef> Actions </th>
+                    <td mat-cell class="actions" *matCellDef="let element; let i = index;">
+                      <div class="button-group">
+                        <input id="UpdateUser" type="button" class="btn btn-sm" [ngClass]="(!isEditMode || currentRecordIndex !== i) ? 'btn-dark' : 'btn-success'" [value]="(!isEditMode || currentRecordIndex !== i) ? 'Edit' : 'Save'" (click)="(!isEditMode || currentRecordIndex !== i) ? toggleEditMode(i) : submitUpdate(element);" container="body" tooltip="{{(!isEditMode || currentRecordIndex !== i) ? 'Edit User' : 'Save User'}}" />
+                        <input id="ActivateUser" *ngIf="!element.IsActive" type="button" class="btn btn-sm btn-success" value="Activate" (click)="openDialog(activationDeactivation, element, 'Activate User', 'activationDeactivationOfUser')" container="body" tooltip="Activate User" />
+                        <input id="DeactivateUser" *ngIf="element.IsActive" type="button" class="btn btn-sm btn-danger" value="Deactivate" (click)="openDialog(activationDeactivation, element, 'Deactivate User', 'activationDeactivationOfUser')" container="body" tooltip="Deactivate User" />
+                      </div>
+                    </td>
+                    <!-- Dialog template for adding new user -->
+                    <ng-template #addNewUser>
+                      <div class="modal-header">
+                        <h4 class="modal-title pull-left">Add New User</h4>
+                        <button type="button" class="btn" (click)="modalRef.hide()">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <!-- Modal body for field level updates  -->
+                      <div class="modal-body">
+                        <form novalidate #newUserForm="ngForm" (ngSubmit)="onSubmit(newUserForm.value)" class="row g-3">
+                          <div class="col-md-4">
+                            <mat-form-field appearance="fill">
+                              <mat-label>First Name</mat-label>
+                              <input matInput placeholder="Wiliams" [formControl]="firstName" required>
+                              <mat-error *ngIf="firstName.invalid">{{getErrorMessageFirstName()}}</mat-error>
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-4">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Last Name</mat-label>
+                              <input matInput placeholder="Farnandes" [formControl]="lastName" required>
+                              <mat-error *ngIf="lastName.invalid">{{getErrorMessageLastName()}}</mat-error>
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-4">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Email</mat-label>
+                              <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                              <mat-error *ngIf="email.invalid">{{getErrorMessageEmail()}}</mat-error>
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-4">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Phone</mat-label>
+                              <input matInput placeholder="2-725-103-3050" [formControl]="phone" required>
+                              <mat-error *ngIf="phone.invalid">{{getErrorMessagePhone()}}</mat-error>
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-4">
+                            <mat-label>Active Status</mat-label>
+                            <div class="pt-2">
+                              <mat-radio-group [formControl]="isUserActive" required>
+                                <mat-radio-button [checked]="true" value="Yes" class="m-2">Yes</mat-radio-button>
+                                <mat-radio-button value="No">No</mat-radio-button>
+                              </mat-radio-group>
+                              <mat-error *ngIf="isUserActive.error">{{getErrorMessageIsUserActive()}}</mat-error>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-success" container="body" tooltip="Save">Save</button>
+                            <button type="button" class="btn btn-dark" container="body" tooltip="Cancel" (click)="modalRef.hide()">Cancel</button>
+                          </div>
+                        </form>
+                      
+                        <!-- <form #newUserForm="ngForm" (ngSubmit)="onSubmit(newUserForm.value)" class="row g-3">
+                          <div class="col-md-4">
+                            <label for="FirstName" class="form-label">First Name</label>
+                            <input [ngModel]="FirstName" type="text" class="form-control" id="FirstName" name="FirstName" placeholder="First Name">
+                            <div *ngIf="!FirstName" class="invalid-feedback">
+                              Please enter First Name
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="LastName" class="form-label">Last Name</label>
+                            <input [ngModel]="LastName" type="text" class="form-control" id="LastName" name="LastName" placeholder="Last Name">
+                            <div *ngIf="!LastName" class="invalid-feedback">
+                              Please enter Last Name
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="Email" class="form-label">Email</label>
+                            <input [ngModel]="Email" type="email" class="form-control" id="Email" name="Email" placeholder="Email">
+                            <div *ngIf="!Email" class="invalid-feedback">
+                              Please enter Email
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="Phone" class="form-label">Phone</label>
+                            <input [ngModel]="Phone" type="phone" class="form-control" id="Phone" name="Phone" placeholder="Phone">
+                            <div *ngIf="!Phone" class="invalid-feedback">
+                              Please enter Phone number
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="IsUserActive" class="form-label">Add user as Active ?</label>
+                            <div class="pt-2">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="IsUserActive" id="yes" value="Yes">
+                                <label class="form-check-label" for="yes">Yes</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="IsUserActive" id="no" value="NO">
+                                <label class="form-check-label" for="no">No</label>
+                              </div>
+                            </div>
+                            <div *ngIf="!IsUserActive" class="invalid-feedback">
+                              Please select a radio button
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-success" container="body" tooltip="Save" (click)="validateNewUserForm(newUserForm.value);">Save</button>
+                            <button type="button" class="btn btn-dark" container="body" tooltip="Cancel" (click)="modalRef.hide()">Cancel</button>
+                          </div>
+                        </form> -->
+                      </div>
+                    </ng-template>
+                    
+                    
+                    <!-- Dialog template for adding new user -->
+                    <ng-template #activationDeactivation>
+                      <div class="modal-header">
+                        <h4 class="modal-title pull-left">{{dialogHeader}}</h4>
+                        <button type="button" class="btn" (click)="modalRef.hide()">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <span [innerHTML]="confirmMessage"></span>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="btn btn-success" container="body" tooltip="Yes">Yes</button>
+                        <button type="button" class="btn btn-dark" container="body" tooltip="Cancel" (click)="modalRef.hide()">Cancel</button>
+                      </div>
+                    </ng-template>
+                  </ng-container>
+
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true;"></tr>
+                  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                  
+                  <!-- Row shown when there is no matching data. -->
+                  <tr class="mat-row" *matNoDataRow>
+                    <td class="mat-cell" colspan="7">
+                      <div class="alert alert-warning">
+                        No data matching the filter "{{input.value}}"
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer Navigation -->
+  <footer class="pt-4 bg-dark text-center text-white">
+    <div class="container">
+      <div class="row">
+        <section class="socialIcons mb-4">
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="Facebook">
+            <fa-icon [icon]="faFacebookF"></fa-icon>
+          </a>
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="Twitter">
+            <fa-icon [icon]="faTwitter"></fa-icon>
+          </a>
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="YouTube">
+            <fa-icon [icon]="faYoutube"></fa-icon>
+          </a>
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="LinkedIn">
+            <fa-icon [icon]="faLinkedinIn"></fa-icon>
+          </a>
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="Instagram">
+            <fa-icon [icon]="faInstagram"></fa-icon>
+          </a>
+          <a class="btn btn-outline-light btn-floating" href="#!" role="button" container="body" tooltip="Pinterest">
+            <fa-icon [icon]="faPinterest"></fa-icon>
+          </a>
+        </section>
+        <section class="">
+          <form disabled container="body" tooltip="Subscribe feature is not functional yet">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Newsletter</strong>
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" placeholder="Email address" id="form5Example2" class="form-control" />
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+        <section class="mb-4">
+          <p>This web page has been developed in order to carry out an assesment and does not have production working redirecting links.</p>
+          <p>Please be cautious while using the navigation links within the organization.</p>
+          <hr>
+        </section>
+        <section class="">
+          <div class="row">
+            <div class="col">
+              <ul class="text-uppercase list-unstyled list-inline">
+                <li class="list-inline-item mb-4"><a href="#" container="body" tooltip="Products">Products</a></li>
+                <li class="list-inline-item mb-4"><a href="#" container="body" tooltip="Find Us">Find Us</a></li>
+                <li class="list-inline-item mb-4"><a href="#" container="body" tooltip="About Us">About Us</a></li>
+                <li class="list-inline-item mb-4"><a href="#" container="body" tooltip="Help">Help</a></li>
+                <li class="list-inline-item mb-4"><a href="#" container="body" tooltip="Quick Links">Quick Links</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="p-3 bg-darker text-white">
+      <small class="text-center">
+        <span class="copyright">© 2021 Copyright</span>
+        <img src="../assets/images/IndiaFlag.PNG" class="footerFlag">
+        &nbsp;
+        <a href="https://www.evolenthealth.com/" target="_blank" container="body" tooltip="Evolent Health Int. Pvt. Ltd." class="text-white">Proudly structured in India for Evolent Health Int. Pvt. Ltd.</a>
+    </small>
+    </div>
+  </footer>
