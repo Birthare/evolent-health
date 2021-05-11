@@ -5,14 +5,9 @@ behaviour.
 
 **Description:** This portal has been designed and developed exclusively as a tailor-made solution for evolent health international private limited. This covers an end to end flow and scenarios of the data for the set of users.
 
-This is a fully-adaptive and **100% responsive application** and optimally suppoerted by any of the trending and legacy device types (e.g. Large desktops, Tablets, Mobile Phones etc.). Take a look at some of the snapshots as below for multiple device types:
+This is a fully-adaptive and **100% responsive application** and optimally suppoerted by any of the trending and legacy device types (e.g. Large desktops, Tablets, Mobile Phones etc.). Take a look at some of more snapshots in the bottom of this document for multiple device types.
 ![DesktopView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/DesktopView.jpg)
-![TabletView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletView.jpg)
-![MobileView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/MobileView.jpg)
-![TabletHeaderNavigation](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletHeaderNavigation.jpg)
-![TabletPinnedColumns](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletPinnedColumns.jpg)
-![MobileHeaderNavigation](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/MobileHeaderNavigation.jpg)
-![ExtraSmallDeviceView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/ExtraSmallDeviceView.jpg)
+ 
 
 **Expectations:**
    - To populate the list of existing users (along with applicable datasets as First Name, Last Name, Email, Phone, Active State
@@ -94,3 +89,22 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
 
 - **Footer:** Footer section has been introduced with incorporating the empty redirecting URLs along with social media iconography. This has been provided with a newsletter subscription form however the functionality is not yet implemented.
   ![Footer](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/Footer.JPG)
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**Snapshots for multiple device types:**
+Take a look at some of the snapshots as below for multiple device types:
+**Tablet View:**
+![TabletView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletView.jpg)
+
+**Tablet Header Navigation:**
+![TabletHeaderNavigation](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletHeaderNavigation.jpg)
+
+**Tablet Pinned Columns:**
+![TabletPinnedColumns](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/TabletPinnedColumns.jpg)
+
+**Mobile View:**
+![MobileView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/MobileView.jpg)
+
+**Mobile Header Navigation:**
+![MobileHeaderNavigation](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/MobileHeaderNavigation.jpg)
+
+**Extra Small Device View:**
+![ExtraSmallDeviceView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/ExtraSmallDeviceView.jpg)
