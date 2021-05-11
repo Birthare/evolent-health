@@ -51,7 +51,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
         - **Filtering:** Filters the user records as per the search criteria.
         - **Sorting:** A client side sorting for the applicable column sets
         - **Pagination:** A client side pagination incorporated with the page size of 5, 10 and 20.
-        - **Sticky (Pinned) column:** Enabled the column 'First Name' and 'Last Name' as sticky. This feature helps the users to scroll the grid content horizontally keeping the primary information needed columns sticky when the grid has more number of columns that cannot be displayed appropriately.
+        - **Sticky (Pinned) column:** Enabled the column **First Name** and **Last Name** as sticky. This feature helps the users to scroll the grid content horizontally keeping the primary information needed columns sticky when the grid has more number of columns that cannot be displayed appropriately.
         
             **Note:** Since we have less number of columns currently being displayed in the grid hence **Sticky (Pinned) column** feature cannot directly be experienced on desktop devices however can be experienced either **on the handheld devices (i.e. Tablets, Mobile Phones)** or even with **resizing the browser window on the desktops**.
         
