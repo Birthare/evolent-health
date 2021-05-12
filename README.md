@@ -1,7 +1,6 @@
 **Project Name:** User Directory
 
-**Live Demo:** Browse the URL <ToBeHostedUrl> to see the application in
-behaviour.
+**Live Demo:** Browse the URL **https://birthare.github.io/evolent-health/** to see the application in behaviour.
 
 **Description:** This portal has been designed and developed exclusively as a tailor-made solution for evolent health international private limited. This covers an end to end flow and scenarios of the data for the set of users.
 
@@ -22,6 +21,8 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
    - **Markup:** HTML 5
    - **Styling:** CSS
    - **Data Operations:** REST APIs to be consumed for operating with the data
+
+**NOTE:** I would like to highlight that post deployment, I have observed the relative file path mismatch because of which 2 attachments are failing to load under run time application (Problem Statement PDF and one thunmbnail image in the footer copyright).
 
 **User Experience Coverage**
 - **Header Navigation**
@@ -60,7 +61,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
       
         ![UserDirectory](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/UserDirectory.JPG)
         
-      - **Problem Statement:** Click event of this button will be opening up the PDF in a dialog box containing the problem statement shared by Evolent HR team. This is just an additional component to help the evaluator with assessing the solutions to the project challenge.
+      - **Problem Statement:** Click event of this button will be opening up the PDF in a dialog box containing the problem statement shared by Evolent HR team. This is just an additional component to help the evaluator with assessing the solutions to the project challenge. (This is currently failing to load due to relative file path mismatch)
       
         ![ProblemStatement](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/ProblemStatement.JPG)
         
