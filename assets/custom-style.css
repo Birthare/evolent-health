@@ -1,0 +1,74 @@
+/* [class*=col-] { border: 1px solid rgba(0,0,0,.12);} */
+.copyright { border-right: 2px solid; margin-right: 10px; padding-right: 10px;}
+.footerFlag { width: 20px;}
+.bg-darker { background: #000;}
+header { box-shadow: 0 15px 10px rgb(33 37 41 / 50%); position: relative;}
+.navbar { padding: 0;}
+.moduleContent { background: #f4faff; box-shadow: 0px 0 10px 10px #dadce0;}
+.logo { padding: 15px; background: rgba(0, 0, 0, 0.4); text-shadow: 2px 2px 7px #98bee6;}
+.logo:hover { background: rgba(0, 0, 0, 1);}
+.userGridData { max-height: 500px; overflow: auto; padding: 0;}
+/* .userGridData table { table-layout: fixed;} */
+.isActive { width: 150px;}
+.firstName { width: 180px;}
+.lastName { width: 180px;}
+.gender { width: 90px;}
+/* .expertise { width: 100px;}
+.jobTitle { width: 100px;}
+.city { width: 100px;}
+.age { width: 50px;} */
+.email { width: 300px;}
+.phone { width: 160px;}
+.actions .btn { min-width: 120px;}
+.mat-table td.mat-cell.actions { min-width: 280px; padding-right: 0;}
+
+.mat-table { border: 1px solid rgba(0,0,0,.12); width: 100%;}
+.mat-table td.mat-cell { border: 1px solid #ccc;}
+.mat-table th { background: #7a93aa; color: #fff; font-weight: bold; font-size: 14px;}
+.mat-table th, .mat-table td { border-right: 1px solid rgba(0,0,0,.12);}
+/* .mat-table th.mat-header-cell:last-of-type, .mat-table td.mat-cell:last-of-type, .mat-table td.mat-footer-cell:last-of-type { padding: 0;} */
+/* .mat-table th.mat-header-cell, .mat-table td.mat-cell { text-align: center;} */
+.mat-table th.mat-header-cell { padding: 10px 15px; text-align: center;}
+.mat-table td.mat-cell { padding: 10px 15px;}
+.mat-table .form-control, .mat-table .mat-table td.mat-cell { padding: 5px 7px; font-size: 14px;}
+.mat-table tr.mat-header-row, .mat-table tr.mat-row { height: auto;}
+/* .mat-sort-header-container { display:flex; justify-content:center;} */ /*Center align the table header cell and cell content*/  
+.mat-table .mat-sort-header-arrow { color: #fff;}
+.userDirectory .mat-paginator { background: transparent;}
+.mat-expansion-panel, .mat-expansion-panel embed { border: 1px solid #ccc;}
+.modal-header { background: #212529; color: #fff;}
+.modal-header button, .modal-header .btn { background: #fff; color: #212529; font-size: 20px; line-height: 20px;}
+.modal button:hover, .modal .btn:hover { opacity: .8;}
+.modal-body { max-height: 500px; overflow: auto;}
+.modal-footer button, .modal-footer .btn { min-width: 80px; font-size: 17px;}
+.matSearchField .mat-form-field { width: 100%;}
+.alert { border: 1px solid; padding: 10px 15px; opacity: .7; border-radius: 0;}
+.feature .list-group-item fa-icon { font-size: 18px; border: 1px solid; padding: 0 5px; min-width: 30px; text-align: center; float: right;}
+hr { color: #888;}
+[type="button"]:not(:last-child), button:not(:last-child), .btn:not(:last-child) { margin-right: 10px;}
+[disabled] { opacity: .5;}
+[disabled] input { pointer-events: none; background-color: #bdc4cb;}
+.bg-sticky-1 { background: #ffe66e;}
+.bg-sticky-2 { background: #a1ef9b;}
+.bg-sticky-3 { background: #ffafdf;}
+.bg-sticky-4 { background: #d7afff;}
+.bg-sticky-5 { background: #9edfff;}
+.bg-sticky-6 { background: #e0e0e0;}
+.bg-sticky-7 { background: #767676;};
+form label, label, .label { font-weight: bold;}
+footer .socialIcons a { min-width: 40px;}
+footer ul { margin-bottom: 0;}
+footer ul.list-inline .list-inline-item a { padding: 5px 25px; color: #fff; text-decoration: none; background: #000;}
+.addUserBtn span { display: inline-block; margin-right: 10px;}
+.modal-body .mat-form-field { width: 100%;}
+h5.card-title { font-weight: normal;}
+.card-header { font-size: 30px;}
+.projectTitle { font-size: 25px;}
+.projectDescription { font-size: 18px;}
+.projectDescription ul { list-style-type: square; line-height: 40px;}
+.accordion button.accordionColor { background-color: #2B3E50; color: #fff;}
+.accordion button.accordionColor::after { background-image: none; font-size: 40px;}
+.accordion button:after { font-family: 'FontAwesome'; content: '–'; float: right; font-weight: bold; line-height: 15px;}
+.accordion button.collapsed:after { content: '+';}
+.alert.alert-white { background-color: #fff; color: #2B3E50;}
+.border-grey { border-color: #bbb;}

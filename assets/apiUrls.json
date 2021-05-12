@@ -1,0 +1,16 @@
+{
+    "mockData": {
+        "GetUserList": "assets/mockApi/GetUserList.json",
+        "AddNewUser": "assets/mockApi/AddNewUser.json",
+        "UpdateUser": "assets/mockApi/UpdateUser.json",
+        "DeactivateUser": "assets/mockApi/DeactivateUser.json",
+        "GetDeactivateUserList": "assets/mockApi/GetDeactivateUserList.json"
+    },
+    "app": {
+        "GetUserList": "api/GetUserList",
+        "AddNewUser": "api/AddNewUser",
+        "UpdateUser": "api/UpdateUser",
+        "DeactivateUser": "api/DeactivateUser",
+        "GetDeactivateUserList": "api/GetDeactivateUserList"
+    }
+}
