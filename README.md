@@ -57,11 +57,12 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
       ![Features](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/Features.JPG)
       
    4. **User Directory:**
+      
+        ![UserDirectory](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/UserDirectory.JPG)
+        
       - **Problem Statement:** Click event of this button will be opening up the PDF in a dialog box containing the problem statement shared by Evolent HR team. This is just an additional component to help the evaluator with assessing the solutions to the project challenge.
       
         ![ProblemStatement](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/ProblemStatement.JPG)
-      
-        ![UserDirectory](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/UserDirectory.JPG)
         
       - **Functionalities (User Directory Grid):** This is an accordion based component and will be collapsed as default. Users can expand it to see the functionalities being covered as a part of the user directory grid below this accordion.
       
