@@ -21,6 +21,22 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
    - **Markup:** HTML 5
    - **Styling:** CSS
    - **Data Operations:** REST APIs to be consumed for operating with the data
+   
+ **Codebase Sructure:**
+ 
+
+    .
+    ├── git         	# Contains information for version control and commits
+    ├── dist               # Contains the minimized version of the source code
+    ├── e2e                # Runs end-to-end tests using Protractor
+    ├── node_modules       # Installed packages get stored here
+    ├── .gitignore		# Used for exporting files/folders to/from git repository
+    ├── karma.conf.js	# Helps testing tools to define the framework and environment to test
+    ├── package.json	# Consists package information installed for application
+    ├── karma.conf.js	# Helps testing tools to define the framework and environment to test
+    ├── tsconfig.json	# Helps root level files to compile the TypeScript code 
+    ├── run.cmd		    # To run the angular application
+    └── README.md          # Consists the features and flow of application and can be used to generate HTML summary out of it
 
 **NOTE:** I would like to let you know on below 2 highlights:
 - That post deployment, I have observed the relative file path mismatch because of which 2 attachments are failing to load under run time application (Problem Statement PDF and one thumbnail image in the footer copyright).
