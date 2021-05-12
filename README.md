@@ -2,9 +2,9 @@
 
 **Live Demo:** Browse the URL **https://birthare.github.io/evolent-health/** to see the application in behaviour.
 
-**Description:** This portal has been designed and developed exclusively as a tailor-made solution for evolent health international private limited. This covers an end to end flow and scenarios of the data for the set of users.
+**Description:** This portal has been designed and developed exclusively as a tailor-made solution for Evolent Health International Pvt. Ltd. This covers an end-to-end flow and scenarios of the data for the set of users.
 
-This is a fully-adaptive and **100% responsive application** and optimally suppoerted by any of the trending and legacy device types (e.g. Large desktops, Tablets, Mobile Phones etc.). **Please refer below snapshot for the entire web view** (Take a look at some of more responsive snapshots at the bottom of this document for views from multiple device types.):
+This is a fully-adaptive and **100% responsive application** and optimally supported by any of the trending and legacy device types (e. g. Large desktops, Tablets, Mobile Phones etc.). **Please refer below snapshot for the entire web view** (Take a look at some of more responsive snapshots at the bottom of this document for views from multiple device types.):
 
 ![DesktopView](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/FullView/DesktopView.jpg)
 
@@ -23,8 +23,8 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
    - **Data Operations:** REST APIs to be consumed for operating with the data
 
 **NOTE:** I would like to let you know on below 2 highlights:
-- That post deployment, I have observed the relative file path mismatch because of which 2 attachments are failing to load under run time application (Problem Statement PDF and one thunmbnail image in the footer copyright).
-- Currently I have mocked the rest APIs in the form of real JSON and consuming them as per the expected service call formats only. Only the POST call related features (Adding of new user, update to them, activate/deacivate) will not be accessible on the application right now. However the flow can be expecrienced on the user inteface.
+- That post deployment, I have observed the relative file path mismatch because of which 2 attachments are failing to load under run time application (Problem Statement PDF and one thumbnail image in the footer copyright).
+- Currently I have mocked the rest APIs in the form of real JSON and consuming them as per the expected service call formats only. Only the POST call related features (Adding of new user, update to them, activate/deactivate) will not be accessible on the application right now. However the flow can be experienced on the user interface.
 
 **User Experience Coverage**
 - **Header Navigation**
@@ -42,7 +42,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
    - Update User
    - Activate User
    - Deactivate User
-   - Global Search ( Disabled for now)
+   - Global Search (Disabled for now)
 
 
 - **Targeted Content**
@@ -55,7 +55,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
       
       ![ProjectDescription](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/ProjectDescription.JPG)
       
-   3. **Features:** Enables users to look at their most frequent questions and and their appropriate solutions
+   3. **Features:** Enables users to look at their most frequent questions and their appropriate solutions
    
       ![Features](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/Features.JPG)
       
@@ -78,11 +78,11 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
         
         ![InvalidSearch](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/InvalidSearch.JPG)
         
-      - **Sorting:** A client side sorting for the applicable column sets
+      - **Sorting:** A client-side sorting for the applicable column sets
       
         ![Sorting](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/Sorting.JPG)
         
-      - **Pagination:** A client side pagination incorporated with the page size of 5, 10 and 20.
+      - **Pagination:** A client-side pagination incorporated with the page size of 5, 10 and 20.
       
         ![Pagination](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/Pagination.JPG)
         
@@ -94,7 +94,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
 
       - **Search User:** A client side filter has been implemented for achieving this feature which is capable of filtering the records as per user's search requests at run time.
         ![SearchUser](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/SearchUser.JPG)
-      - **Add New User:** On click of this button, a UI form will be displayed wherein user needs to to fill the bare minimum information (i.e. First Name, Last Name, Email, Phone and Active Status) and submit the request for creating an user's record in the system. I have incorporated an interesting feature where one can create new users even with keeping them deactivated initially, however they can again be made active at a later point in time. Once the user is added, the record for this user can be seen in the User Directory grid.
+      - **Add New User:** On click of this button, a UI form will be displayed wherein user needs to fill the bare minimum information (i. e. First Name, Last Name, Email, Phone and Active Status) and submit the request for creating an user's record in the system. I have incorporated an interesting feature where one can create new users even with keeping them deactivated initially, however they can again be made active at a later point in time. Once the user is added, the record for this user can be seen in the User Directory grid.
       
       ![AddNewUser](https://raw.githubusercontent.com/Birthare/evolent-health/master/src/assets/images-document/AddNewUser.JPG)
       
