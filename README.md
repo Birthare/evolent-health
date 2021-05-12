@@ -24,7 +24,7 @@ This is a fully-adaptive and **100% responsive application** and optimally suppo
 
 **NOTE:** I would like to let you know on below 2 highlights:
 - That post deployment, I have observed the relative file path mismatch because of which 2 attachments are failing to load under run time application (Problem Statement PDF and one thunmbnail image in the footer copyright).
-- Currently I have mocked the rest APIs in the form of real JSON and consuming them as oer the expected service call formats only. Only the POST call related features (Adding of new user, update to them, activate/deacivate) will not be accessible on the application right now. HOwever the flow can be expecrienced on the user inteface.
+- Currently I have mocked the rest APIs in the form of real JSON and consuming them as per the expected service call formats only. Only the POST call related features (Adding of new user, update to them, activate/deacivate) will not be accessible on the application right now. However the flow can be expecrienced on the user inteface.
 
 **User Experience Coverage**
 - **Header Navigation**
